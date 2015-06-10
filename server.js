@@ -21,7 +21,7 @@ http.createServer(function (req, res) {
     else if (req.method == 'GET') {
         handler(req, res, '');
     }
-}).listen(3888);
+}).listen(80);
 
 
 function handler(req, res, data) {
